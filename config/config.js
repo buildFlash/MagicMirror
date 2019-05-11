@@ -124,7 +124,7 @@ var config = {
       module: 'MMM-Screencast',
       position: 'middle_center', // This position is for a hidden <div /> and not the screencast window
       config: {
-        position: 'bottomRight',
+        position: 'center',
         height: 600,
         width: 1000,
       }
