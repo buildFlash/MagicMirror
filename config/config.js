@@ -93,6 +93,7 @@ var config = {
       header: 'F1 Standings',
       config: {
         calendar: true,
+        maxRows: 10,
         // Optional configuration options - see https://github.com/ianperrin/MMM-Formula1#configuration-options
       }
     }
