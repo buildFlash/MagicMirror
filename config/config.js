@@ -133,7 +133,8 @@ var config = {
       module: 'MMM-TelegramBot',
       config: {
         telegramAPIKey: '687290318:AAF9X75A3r_Ma0scckVHMotCG3AjMQtq688',
-        allowedUser: ['ryn2624'], // This is NOT the username of bot.
+        allowedUser: ['ryn2624'],
+        adminChatId: 616920578,
       }
     }
 
