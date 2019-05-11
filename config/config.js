@@ -107,7 +107,18 @@ var config = {
         maxRows: 10,
         // Optional configuration options - see https://github.com/ianperrin/MMM-Formula1#configuration-options
       }
-    }
+    },
+    {
+      module: "MMM-NowPlayingOnSpotify",
+      position: "bottom_left",
+
+      config: {
+        clientID: "4bdc6a2a1ad54468a54d7bd7349abd55",
+        clientSecret: "11b26753a1624aad9365102702935185",
+        accessToken: "BQBwwgZrqOem2D63ynjtBeRxQR4l1EYFoP-T5hrpfA1QFpwy6GB0m-ft39bJNwWsyJpavVjVAi_YV_MIsgXaPlrXPl6QqNv3C-pjWk-U-5m7YS1zRS5aYDWIHdUkUGx4pG6gy8oYTTYtK0mPRDWZiWuc1x6OdcYC7ZJjrui0ESaV55EvpZJw",
+        refreshToken: "AQBMh0zoXs0LpGhDWKWF9NxwdsA3xwnaJS-7KuwD9PCJHSpalyi0MFuUdt5qHIr38jhB9-UwHXecKV_8XyAu7B8-VtmOGQ0rG4BP2HBhJCZy6hfgEZ7vepTnmiB-D9gOtpRAUA"
+      }
+    
   ]
 
 };
