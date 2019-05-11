@@ -57,10 +57,6 @@ var config = {
       }
     },
     {
-      module: "compliments",
-      position: "lower_third"
-    },
-    {
       module: "currentweather",
       position: "top_right",
       config: {
@@ -93,10 +89,6 @@ var config = {
           {
             title: "TechCrunch",
             url: "http://feeds.feedburner.com/TechCrunch"
-          },
-          {
-            title: "Sports",
-            url: "https://www.feedspot.com/?followfeedid=4780065"
           }
         ],
         showSourceTitle: true,
@@ -116,14 +108,13 @@ var config = {
     {
   module: "MMM-NowPlayingOnSpotify",
   position: "bottom_left",
-
-  config: {
-    clientID: "4bdc6a2a1ad54468a54d7bd7349abd55",
-    clientSecret: "11b26753a1624aad9365102702935185",
-    accessToken: "BQDN-2yuMnXtv4QA5NhPX3mIsAcBOP0KtYWKuYVojSlB2hl12dmeWJd3fPJETv1kjd2pwO43PhtuF6RcTxkN5G9CnjpZPW80wSsnsgcZ2UC7FsKettxzhEJ-dGJPnfSMJaS2GLuwLBbylzhMwjEsFAXT-KexWE6q0JRNLGOrnkRCYjpBQh18",
-    refreshToken: "AQANbVgrgT38AhYP6sZfXpQDv6ikFgMZY5wfkYtwWpvaTIRujrR1qcaNy31-6jPyZeX1niabrMyEjc1pICV1C9ETpAB8_doSKN6EaPIZofNz9hc85LPoRwYdm2uSyManxIVIZA"
-  }
-},
+      config: {
+        clientID: "4bdc6a2a1ad54468a54d7bd7349abd55",
+        clientSecret: "11b26753a1624aad9365102702935185",
+        accessToken: "BQDN-2yuMnXtv4QA5NhPX3mIsAcBOP0KtYWKuYVojSlB2hl12dmeWJd3fPJETv1kjd2pwO43PhtuF6RcTxkN5G9CnjpZPW80wSsnsgcZ2UC7FsKettxzhEJ-dGJPnfSMJaS2GLuwLBbylzhMwjEsFAXT-KexWE6q0JRNLGOrnkRCYjpBQh18",
+        refreshToken: "AQANbVgrgT38AhYP6sZfXpQDv6ikFgMZY5wfkYtwWpvaTIRujrR1qcaNy31-6jPyZeX1niabrMyEjc1pICV1C9ETpAB8_doSKN6EaPIZofNz9hc85LPoRwYdm2uSyManxIVIZA"
+      }
+    },
     {
       module: 'MMM-Screencast',
       position: 'middle_center', // This position is for a hidden <div /> and not the screencast window
