@@ -35,7 +35,12 @@ var config = {
     },
     {
       module: "clock",
-      position: "top_left"
+      position: "top_left",
+      config: {
+        timeFormat: 12,
+        clockBold: true,
+        displayType: "both"
+      }
     },
     {
       module: "calendar",
@@ -70,7 +75,9 @@ var config = {
       config: {
         location: "Gurgaon",
         locationID: "1270642",  //ID from https://openweathermap.org/city
-        appid: "62875a20c33f422148f0d5cb33404d85"
+        appid: "62875a20c33f422148f0d5cb33404d85",
+        maxNumberOfDays: 2,
+        showRainAmount: true
       }
     },
     {
@@ -81,6 +88,10 @@ var config = {
           {
             title: "NDTV",
             url: "http://feeds.feedburner.com/NDTV-LatestNews"
+          },
+          {
+            title: "TechCrunch",
+            url: "http://feeds.feedburner.com/TechCrunch"
           }
         ],
         showSourceTitle: true,
