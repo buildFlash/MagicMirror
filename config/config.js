@@ -39,7 +39,7 @@ var config = {
       config: {
         timeFormat: 12,
         clockBold: true,
-        displayType: "both"
+        displayType: "digital"
       }
     },
     {
