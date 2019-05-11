@@ -119,6 +119,15 @@ var config = {
         accessToken: "BQBwwgZrqOem2D63ynjtBeRxQR4l1EYFoP-T5hrpfA1QFpwy6GB0m-ft39bJNwWsyJpavVjVAi_YV_MIsgXaPlrXPl6QqNv3C-pjWk-U-5m7YS1zRS5aYDWIHdUkUGx4pG6gy8oYTTYtK0mPRDWZiWuc1x6OdcYC7ZJjrui0ESaV55EvpZJw",
         refreshToken: "AQBMh0zoXs0LpGhDWKWF9NxwdsA3xwnaJS-7KuwD9PCJHSpalyi0MFuUdt5qHIr38jhB9-UwHXecKV_8XyAu7B8-VtmOGQ0rG4BP2HBhJCZy6hfgEZ7vepTnmiB-D9gOtpRAUA"
       }
+    },
+    {
+      module: 'MMM-Screencast',
+      position: 'bottom_right', // This position is for a hidden <div /> and not the screencast window
+      config: {
+        position: 'bottomRight',
+        height: 300,
+        width: 500,
+      }
     }
 
   ]
