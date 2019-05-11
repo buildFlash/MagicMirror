@@ -93,6 +93,10 @@ var config = {
           {
             title: "TechCrunch",
             url: "http://feeds.feedburner.com/TechCrunch"
+          },
+          {
+            title: "Sports",
+            url: "https://www.feedspot.com/?followfeedid=4780065"
           }
         ],
         showSourceTitle: true,
