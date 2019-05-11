@@ -45,8 +45,9 @@ var config = {
     {
       module: "calendar",
       header: "Formula 1 Schedule",
-      position: "top_left",
+      position: "top_center",
       config: {
+        maximumEntries: 3,
         calendars: [
           {
             symbol: ' flag-checkered',
@@ -100,11 +101,11 @@ var config = {
     },
     {
       module: 'MMM-Formula1',
-      position: 'bottom_right',
+      position: 'top_center',
       header: 'F1 Standings',
       config: {
         calendar: true,
-        maxRows: 10,
+        maxRows: 3,
         // Optional configuration options - see https://github.com/ianperrin/MMM-Formula1#configuration-options
       }
     },
