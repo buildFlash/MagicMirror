@@ -136,6 +136,15 @@ var config = {
         allowedUser: ['ryn2624'],
         adminChatId: 616920578,
       }
+    },
+    {
+      module: 'MMM-Glance',
+      config: {
+        defaultGlancingTime: 10000,
+        alias: {
+          "f1": ["calendar", 'MMM-Formula1'],
+        }
+      }
     }
 
   ]
