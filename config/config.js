@@ -128,6 +128,13 @@ var config = {
         height: 600,
         width: 1000,
       }
+    },
+    {
+      module: 'MMM-TelegramBot',
+      config: {
+        telegramAPIKey: '687290318:AAF9X75A3r_Ma0scckVHMotCG3AjMQtq688',
+        allowedUser: ['ryn2624'], // This is NOT the username of bot.
+      }
     }
 
   ]
