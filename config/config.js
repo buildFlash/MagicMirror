@@ -114,16 +114,16 @@ var config = {
       }
     },
     {
-      module: "MMM-NowPlayingOnSpotify",
-      position: "bottom_left",
+  module: "MMM-NowPlayingOnSpotify",
+  position: "bottom_left",
 
-      config: {
-        clientID: "4bdc6a2a1ad54468a54d7bd7349abd55",
-        clientSecret: "11b26753a1624aad9365102702935185",
-        accessToken: "BQBwwgZrqOem2D63ynjtBeRxQR4l1EYFoP-T5hrpfA1QFpwy6GB0m-ft39bJNwWsyJpavVjVAi_YV_MIsgXaPlrXPl6QqNv3C-pjWk-U-5m7YS1zRS5aYDWIHdUkUGx4pG6gy8oYTTYtK0mPRDWZiWuc1x6OdcYC7ZJjrui0ESaV55EvpZJw",
-        refreshToken: "AQBMh0zoXs0LpGhDWKWF9NxwdsA3xwnaJS-7KuwD9PCJHSpalyi0MFuUdt5qHIr38jhB9-UwHXecKV_8XyAu7B8-VtmOGQ0rG4BP2HBhJCZy6hfgEZ7vepTnmiB-D9gOtpRAUA"
-      }
-    },
+  config: {
+    clientID: "4bdc6a2a1ad54468a54d7bd7349abd55",
+    clientSecret: "11b26753a1624aad9365102702935185",
+    accessToken: "BQDN-2yuMnXtv4QA5NhPX3mIsAcBOP0KtYWKuYVojSlB2hl12dmeWJd3fPJETv1kjd2pwO43PhtuF6RcTxkN5G9CnjpZPW80wSsnsgcZ2UC7FsKettxzhEJ-dGJPnfSMJaS2GLuwLBbylzhMwjEsFAXT-KexWE6q0JRNLGOrnkRCYjpBQh18",
+    refreshToken: "AQANbVgrgT38AhYP6sZfXpQDv6ikFgMZY5wfkYtwWpvaTIRujrR1qcaNy31-6jPyZeX1niabrMyEjc1pICV1C9ETpAB8_doSKN6EaPIZofNz9hc85LPoRwYdm2uSyManxIVIZA"
+  }
+},
     {
       module: 'MMM-Screencast',
       position: 'middle_center', // This position is for a hidden <div /> and not the screencast window
