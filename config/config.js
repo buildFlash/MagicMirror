@@ -143,7 +143,7 @@ var config = {
       }
     },
     {
-      module: 'phone_notification',
+      module: 'phone-notification-mirror',
       position: 'bottom_right',
       header: 'Phone Notifications',
       config: {
