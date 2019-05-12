@@ -15,7 +15,7 @@ var config = {
   // - "", "0.0.0.0", "::" to listen on any interface
   // Default, when address config is left out, is "localhost"
   port: 8080,
-  ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.0.1/120", "192.168.0.1/24"],
+  ipWhitelist: ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.1/120", "192.168.1.1/24"],
   // or add a specific IPv4 of 192.168.1.5 :
   // ["127.0.0.1", "::ffff:127.0.0.1", "::1", "::ffff:192.168.1.5"],
   // or IPv4 range of 192.168.3.0 --> 192.168.3.15 use CIDR format :
