@@ -106,8 +106,8 @@ var config = {
       }
     },
     {
-  module: "MMM-NowPlayingOnSpotify",
-  position: "bottom_left",
+      module: "MMM-NowPlayingOnSpotify",
+      position: "bottom_left",
       config: {
         clientID: "4bdc6a2a1ad54468a54d7bd7349abd55",
         clientSecret: "11b26753a1624aad9365102702935185",
@@ -139,21 +139,6 @@ var config = {
         alias: {
           "f1": ["calendar", 'MMM-Formula1'],
         }
-      }
-    },
-    {
-      module: 'phone-notification-mirror',
-      position: 'bottom_right',
-      header: 'Phone Notifications',
-      config: {
-        accessToken: 'o.tfoEFXXATQW9bbM5ZAskKLUt6jE3oDHu',
-        numberOfNotifications: 5,
-        displayNotificationIcon: true,
-        displayMessage: true,
-        displayCount: false,
-        alert: false,
-        fade: true,
-        maxCharacters: 50
       }
     },
   ]
