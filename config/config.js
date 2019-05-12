@@ -140,8 +140,22 @@ var config = {
           "f1": ["calendar", 'MMM-Formula1'],
         }
       }
-    }
-
+    },
+    {
+      module: 'phone_notification',
+      position: 'bottom_right',
+      header: 'Phone Notifications',
+      config: {
+        accessToken: 'o.tfoEFXXATQW9bbM5ZAskKLUt6jE3oDHu',
+        numberOfNotifications: 5,
+        displayNotificationIcon: true,
+        displayMessage: true,
+        displayCount: false,
+        alert: false,
+        fade: true,
+        maxCharacters: 50
+      }
+    },
   ]
 
 };
