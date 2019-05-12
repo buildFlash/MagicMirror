@@ -141,6 +141,14 @@ var config = {
         }
       }
     },
+    {
+      module: "MMM-Volume",
+      position: "top_left", // It is meaningless. but you should set.
+      config: {
+        usePresetScript: "ALSA", // "ALSA" is supported by default.
+        volumeOnStart: 50,
+      }
+    }
   ]
 
 };
