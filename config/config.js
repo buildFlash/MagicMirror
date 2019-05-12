@@ -45,7 +45,7 @@ var config = {
     {
       module: "calendar",
       header: "Formula 1 Schedule",
-      position: "top_center",
+      position: "bottom_right",
       config: {
         maximumEntries: 3,
         calendars: [
@@ -97,7 +97,7 @@ var config = {
     },
     {
       module: 'MMM-Formula1',
-      position: 'top_center',
+      position: 'bottom_right',
       header: 'F1 Standings',
       config: {
         calendar: true,
